@@ -19,4 +19,6 @@ console.log(`Time Elapsed: ${(time2 - time1) / 1000} seconds.`)
  * 3. n comparisons (i<=n)
  * 4. n additions and n assignments (i++)
  * 5. n additions and n assignments (total+=i)
+ * 
+ * So if n is 10, we got 50 operations + 2(assignments) means total 52 operations.
  */
