@@ -6,7 +6,7 @@
  * 2. But when you need fast access / insertion and removal (sort of...), then
  * Insertion - it depends. Insertion at the end takes O(1), and insertion at the beginning takes O(n) because we have to reindex every element in the array
  * Removal - it depends. Removal at the end takes O(1), and Removal at the beginning takes O(n) because we have to reindex every element in the array
- * Searching - O(n) as the array size grows, the searching time grows
+ * Searching - O(n) as the array size grows, the searching time grows. If search by value, it's O(n). If search by index, it's O(1)
  * Access - O(1)
  */
 
