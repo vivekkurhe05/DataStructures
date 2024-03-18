@@ -29,7 +29,7 @@ class LinkedList {
     pop() {
         if(!this.head) return undefined // if linked list is empty
         let temp = this.head // if linked list has only 1 node, both temp and pre are pointing to it
-        let pre = this.tail  // ------||------
+        let pre = this.head  // ------||------
         while(temp.next) {
             pre = temp
             temp = temp.next
