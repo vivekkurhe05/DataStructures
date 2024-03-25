@@ -52,7 +52,7 @@ class BST{
     }
 
     minValueNode(currentNode){
-        while(currentNode.value != null){
+        while(currentNode.left != null){
             currentNode = currentNode.left
         }
         return currentNode
