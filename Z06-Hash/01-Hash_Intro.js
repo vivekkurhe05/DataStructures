@@ -8,7 +8,7 @@
 
 /**
  * 
- * Collision is when we maps items to the same spot in memory.
+ * Collision is when we map items to the same spot in memory.
  * 
  * The process of putting all of the key-value pairs that map to particular address in the same address space is called separate chaining.
  * 
